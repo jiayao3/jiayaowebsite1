@@ -185,8 +185,7 @@ body {
     justify-content: space-between;
     align-items: center;
     opacity: 95%;
-    padding: 5px;
-
+    padding: 0.5rem;
 }
 
 #header button{
@@ -204,7 +203,7 @@ body {
 
 #h_button_toggle {
     padding:0;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 #h_button_toggle:hover {
@@ -219,12 +218,16 @@ body {
   transition: 0.3s;
 }
 
+#header .social-icon {
+    margin-right: 1rem;
+}
+
 .social-icon a{
     color: #fff;
     text-decoration: none;
-    font-size: 2rem;
-    padding-right: 15px;
+    padding-right: 1rem;
     transition: all 0.3s ease;
+    font-size: 2.5rem;
 }
 
 .social-icon a:hover {
@@ -250,12 +253,12 @@ body {
     top: 0;
     left: 0;
     z-index: 101;
-    height: 200px;
+    height: 15rem;
     --nav-width: 100vw;
     width: var(--nav-width);
     background: #383838;
     opacity: 95%;
-    transform: translateY(-200px);
+    transform: translateY(-21rem);
     border-radius: 10px;
 }
 
@@ -267,8 +270,8 @@ body {
 
 .nav_link_blank{
     display: flex;
-    height:3rem;
-    padding:5px;
+    height: 2rem;
+    padding:1.5rem;
 }
 
 .nav_link{
@@ -281,7 +284,8 @@ body {
     border-radius: 10px;
     transition: all 0.3s ease;
     font-weight: bold;
-    font-size: min(1rem);
+    font-size: 2rem;
+    padding: 0.5rem;
 }
 
 .navlink > i {
@@ -620,7 +624,7 @@ footer a:hover{
     width: 80%;
     left: 5%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 10rem;
     text-align: center;
     background:#3d3d3d;
     border-radius: 10px;
@@ -673,7 +677,7 @@ footer a:hover{
     border:1px solid #696969;
     font-size: 1rem;
     display: block;
-    margin-top: 100px;
+    margin-top: 10rem;
     padding: 1rem 1rem;
     opacity: 0.9;
 }
@@ -759,7 +763,7 @@ footer a:hover{
     display: none;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
     .responsive_icon {
         display: inline-block;
     }
@@ -770,11 +774,11 @@ footer a:hover{
         left: 0;
         z-index: 101;
         height: 100vh;
-        --nav-width: 30vw;
+        --nav-width: 35rem;
         width: var(--nav-width);
         background: #383838;
         opacity: 95%;
-        transform: translateX(-30vw);
+        transform: translateX(-35rem);
         border-radius: 10px;
     }
 
@@ -786,7 +790,7 @@ footer a:hover{
         border:1px solid #696969;
         font-size: 1rem;
         display: block;
-        margin-top: 100px;
+        margin-top: 10rem;
         padding: 1rem 1rem;
     }
 }
