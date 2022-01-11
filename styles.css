@@ -608,6 +608,8 @@ body {
     border-radius: 30px;
     position: relative;
     text-align: center;
+    overflow: hidden;
+    height: 4rem;
 }
 
 
@@ -618,8 +620,18 @@ body {
 
 .page-link li:hover{
     background-color: #696969;
-    text-decoration: underline;
     transition-duration: 0.5s;
+    height: 7rem;
+}
+
+#left_right
+{
+
+}
+
+#right_left
+{
+
 }
 
 /*footer-----------------------------------*/

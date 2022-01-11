@@ -1,3 +1,5 @@
+
+
 window.onload = function(){ 
     document.getElementById("preload").style.display = "none" 
 }
@@ -88,3 +90,12 @@ function autoSlides() {
     dots[slideIndex-1].className += " active";
     setTimeout(autoSlides, 4000);
 }
+
+$(document).ready(function(){
+    $(window).scroll(function() {
+
+    if ($window.scrollTop() > 100) {
+        $("#left_right").fadeIn(2000);      
+    }
+    });
+});
