@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+      <meta charset="UTF-8">
+      <title> JIAYAO's Website </title>
+      <link rel="stylesheet" href="styles.css">
+      <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">
+      <script src="https://kit.fontawesome.com/13809fa01b.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div id = "preload">
+      <div id = "loading">
+        <div class = "dot dot1"></div>
+        <div class = "dot dot2"></div>
+        <div class = "dot dot3"></div>
+      </div>
+      <!--
+        <img class = "load-image" src="images/load-gif.gif">
+
+      -->
+    </div>
+    <div class = "background">
+      <ul class = "back-circle">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+                  
+    </div>
+
+    <div id = "page-container" style="min-height:100vh; display:flex; flex-direction:column; 
+    justify-content:space-between;">
+
+        <div id = "content-wrap">
+
+            <header id = "header">
+                <button class="header_button" id = "btnNav" type="button">
+                <i id = "h_button_toggle"  class="material-icons">menu</i>
+                </button>
+                <div class = "social-icon">
+                    <ul>
+                        <li>
+                        <a href="#">
+                          <i class="fas fa-sign-in-alt"></i>
+                        </a>
+                        </li>
+                        <li>
+                        <a class = "responsive_icon" href = 'https://www.facebook.com/wu.jiayao.5/' target="_blank">
+                          <i class="fab fa-facebook"></i>
+                        </a>
+                        </li>
+                        <li>
+                        <a class = "responsive_icon" href = https://www.instagram.com/jiayao__ target="_blank">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                        </li>
+                        <li>
+                        <a class = "responsive_icon" href = https://github.com/jiayao3 target="_blank">
+                          <i class="fab fa-github"></i>
+                        </a>
+                        </li>
+                    </ul>
+                    </div>
+            </header>
+
+            <nav class="nav">
+                <div class="nav_links">
+                  <div class = "nav_link_blank"> <p></p></div>
+
+                    <a href ="home.html" class = "nav_link">
+                        <i class="material-icons">home</i>
+                        Home
+                    </a>
+                    <a class = "nav_link" href ="Projects.html">
+                        <i class="material-icons">source</i>
+                        Projects
+                    </a>
+                    <a class = "nav_link nav_link--active" href ="Contacts.html">
+                        <i class="material-icons">contacts</i>
+                        Contacts
+                    </a>
+                </div>
+                <div class="nav_overlay"></div>
+            </nav>
+
+            <div class= "login-content">
+                    <h1>Login</h1>
+                    
+                    <form class="login_form">
+                      <label> Username </label>
+                      <div class="txt_field">
+                        
+                        <input type="email" name = "email" required placeholder="Email Address">
+                      </div>
+                      <label> Password </label>
+                      <div class="txt_field">
+                        <input type="password" required placeholder="Your Password" name = "pwd">
+                      </div>
+                      <button class="login_button">Login</button>
+                    </form>
+                    <a href="#" style="text-decoration: none;"><p class="register" >
+                      Register</p> 
+                    </a>
+            </div>
+        </div>
+
+        <footer id = "footer">
+            <div class="author">
+                <p>Designed and Managed by Jiayao Wu</p>
+                <p>Email: 
+                <a href="mailto:wujiayao.jiayao@gmail.com">wujiayao.jiayao@gmail.com</a>
+                </p>
+            </div>
+            <ul class = "social-icon" style="padding-top: 10px;">
+              <li>
+                  <a href = 'https://www.facebook.com/wu.jiayao.5/' target="_blank">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                  </li>
+                  <li>
+                  <a href = https://www.instagram.com/jiayao__ target="_blank">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  </li>
+                  <li>
+                  <a href = https://github.com/jiayao3 target="_blank">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  </li>
+          </ul>
+        </footer>
+
+    </div>
+
+
+    <script src="js/main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+
+</html>
