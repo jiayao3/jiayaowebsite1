@@ -4,7 +4,7 @@
 
       <meta charset="UTF-8">
       <title> JIAYAO's Website </title>
-      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="../styles.css">
       <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
       rel="stylesheet">
       <script src="https://kit.fontawesome.com/13809fa01b.js" crossorigin="anonymous"></script>
@@ -44,7 +44,7 @@
                 <div class = "social-icon">
                     <ul>
                         <li>
-                        <a href="login.html">
+                        <a href="../login.html">
                           <i class="fas fa-sign-in-alt"></i>
                         </a>
                         </li>
@@ -71,15 +71,15 @@
                 <div class="nav_links">
                   <div class = "nav_link_blank"> <p></p></div>
 
-                    <a href ="index.html" class = "nav_link">
+                    <a href ="../index.html" class = "nav_link">
                     <i class="material-icons">home</i>
                     Home
                     </a>
-                    <a class = "nav_link nav_link--active" href ="#">
+                    <a class = "nav_link nav_link--active" href ="../Projects.html">
                     <i class="material-icons">source</i>
                     Projects
                     </a>
-                    <a class = "nav_link" href ="Contacts.html">
+                    <a class = "nav_link" href ="../Contacts.html">
                     <i class="material-icons">contacts</i>
                     Contacts
                     </a>
@@ -89,13 +89,13 @@
 
             <div class = "slide-container">
                 <div class="slides fade">
-                    <img src="images/slide1.png">
+                    <img src="../images/slide1.png">
                 </div>
                 <div class="slides fade">
-                    <img src="images/slide2.png">
+                    <img src="../images/slide2.png">
                 </div>
                 <div class="slides fade">
-                    <img src="images/slide3.png">
+                    <img src="../images/slide3.png">
                 </div>
                 <a class="slideprev" onclick = "plusSlides(-1)">
                     <i class="fas fa-angle-double-left"></i>
@@ -106,9 +106,9 @@
                 </a>
                 
                 <div class="text">
-                    <h1>Projects</h1>
+                    <h1>Multiplayer Party Game (Under Development) </h1>
                     <p> 
-                    My recent and previous projects.
+                      Multiplayer game using Unity's Netcode for Game Objects.
                     </p>
                 </div>
 
@@ -120,68 +120,21 @@
             </div>
 
             <main>
-              <div class="page-link">
-                <h1>Software Project</h1>
-                <ul class="pages">
-                  <li id="left_right">
-                    <a href="https://kulaa.co.uk/">
-                      <h2>Kulaa</h2>
-                      <p>Kulaa is a social network dedicated to helping foodies discover and share the best dishes in the world. Unlike other review sites that review restaurants, Kulaa is focused on the dishes.</p>
-                      <p><strong>Date:</strong> Mar 2024 - Jun 2024</p>
-                    </a>
-                  </li>
-                  <li id="left_right">
-                    <a href="https://github.com/BrandonWidjaja/IT-Project">
-                      <h2>UniRec</h2>
-                      <p>University of Melbourne building rating system. Fosters a lively community that connects students and societies, seamlessly integrating events and timelines into the profile of each building.</p>
-                      <p><strong>Date:</strong> Aug 2022 - Nov 2022</p>
-                    </a>
-                  </li>
-                  <li id="right_left">
-                    <a href="https://github.com/jiayao3/SensorShip">
-                      <h2>SensorShip</h2>
-                      <p>A spaceship shooting game where you shoot lasers or missiles to destroy minions and meteors. Players can use face tracking and voice to control the movement of the spaceship. Responsible for face tracking feature and full-stack development</p>
-                      <p><strong>Date:</strong> Aug 2023 - Nov 2023</p>
-                    </a>
-                  </li>
-                  <li id="right_left">
-                    <a href="https://github.com/HaodongGU/INFO30005Proj">
-                      <h2>Diabetes@HOME</h2>
-                      <p>Aimed to help those people who need to manage their diabetes at home. People can record data on the web app and the data can be monitored by their clinician.</p>
-                      <p><strong>Date:</strong> Mar 2022 - Jun 2022</p>
-                    </a>
-                  </li>
+              <section class="page-link">
+                <h1>Key Features:</h1>
+                <ul>
+                  <li>Player basic movement and attacks</li>
+                  <li>Synchronizing data across multiple clients</li>
+                  <li>Deciding between server-authoritative and client-authoritative setups</li>
+                  <li>Implementing Remote Procedure Calls (RPCs) and NetworkVariables</li>
+                  <li>Designing a character selection scene and multiplayer lobbies</li>
+                  <li>Connecting players using Unity's Relay service</li>
                 </ul>
-              </div>
-
-              <div class = "page-link">
-                <h1>Game Project</h1>
-                <ul class="pages">
-                  <li id = "right_left">
-                    <a href="https://play.unity.com/mg/other/freerange-1">
-                      <h2>FreeRange</h2>
-                      <p>Free Range is a 2.5D platformer where you play as a chicken who has had her fiance, Range, stolen by a snake.</p>
-                      <p><strong>Date:</strong> Aug 2022 - Nov 2022</p>
-                    </a>
-                  </li>
-                  <li id = "right_left">
-                    <a href="/Projects/MultiplayerGame.html">
-                      <h2>Multiplayer Party Game (under development)</h2>
-                      <p>Multiplayer game by using Netcode for GameObjects and Lobby</p>
-                      <p><strong>Date:</strong> Present</p>
-                    </a>
-                  </li>
-                  <li id = "right_left">
-                    <a href="https://github.com/jiayao3/SnakesAndLadders">
-                      <h2>Snake and Ladders</h2>
-                      <p>A classic snake and ladders game by using Java.</p>
-                      <p><strong>Date:</strong> Aug 2021 - Nov 2021</p>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-
-
+                <h1>Screenshots:</h1>
+                <img style="width: 50%; margin-bottom: 1rem;" src="../images/MultiplayerGame1.png">
+                <img style="width: 50%; margin-bottom: 1rem;" src="../images/Multiplayer 2.png">
+                <img style="width: 50%; margin-bottom: 1rem;" src="../images/Multiplayer3.png">
+              </section>
             </main>
         </div>
 
@@ -214,7 +167,7 @@
     </div>
 
 
-    <script src="js/main.js"></script>
+    <script src="../js/main.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>

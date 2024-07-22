@@ -588,42 +588,64 @@ body {
     text-align: center;
 }
 
-.page-link h1{
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-size: 2.8rem;
+.page-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 5rem;
 }
 
-.page-link ul{
+.page-link ul {
     padding: 0;
-    padding-bottom: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
 }
 
-.page-link li{
-    width: 40%;
+.page-link li {
+    width: calc(40% - 2rem);
     list-style: none;
     background: #3d3d3d;
-    margin: 5%;
-    padding: 0;
-    float: left;
-    border-radius: 30px;
+    border-radius: 0.5rem;
     position: relative;
     text-align: center;
     overflow: hidden;
-    height: 4rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.5s, transform 0.3s, box-shadow 0.3s;
 }
 
-
-.page-link a{
+.page-link a {
     color: white;
     text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
 }
 
-.page-link li:hover{
+.page-link li:hover {
     background-color: #696969;
-    transition-duration: 0.5s;
-    height: 7rem;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.page-link h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.page-link p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.page-link li p:last-child {
+    margin-bottom: 0;
 }
 
 
